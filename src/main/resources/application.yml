@@ -11,9 +11,9 @@ spring:
     type: com.zaxxer.hikari.HikariDataSource
     #配置数据库连接属性
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://menchuanhe.top:3306/zhxy_db?characterEncoding=utf-8&serverTimezone=GMT%2B8&userSSL=false
+    url: jdbc:mysql://192.168.14.111:3306/zhxy_db?characterEncoding=utf-8&serverTimezone=GMT%2B8&userSSL=false
     username: root
-    password: 412826
+    password: 123456
     hikari:
       connection-test-query: SELECT 1
       connection-timeout: 60000
